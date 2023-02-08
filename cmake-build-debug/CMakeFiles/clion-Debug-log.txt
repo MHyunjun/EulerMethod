@@ -1,0 +1,23 @@
+"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Administrator\CLionProjects\EulerMethod -B C:\Users\Administrator\CLionProjects\EulerMethod\cmake-build-debug
+CMake Error at C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake:321 (file):
+  file problem creating directory:
+  C:/Users/Administrator/CLionProjects/EulerMethod/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdFortran
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineFortranCompiler.cmake:193 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+-- The Fortran compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "FC" or the CMake cache entry CMAKE_Fortran_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Administrator/CLionProjects/EulerMethod/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Administrator/CLionProjects/EulerMethod/cmake-build-debug/CMakeFiles/CMakeError.log".
